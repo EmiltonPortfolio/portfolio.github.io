@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font1 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* -------------------------------------------------------- */
+
+:root {
+    --ColorBlack: black;
+    --ColorWhite: white;
+    --ColorGrey: rgb(97, 97, 97);
+}
+
+/* -------------------------------------------------------- */
+
+.JavaColor {
+    font-weight: 800;
+    color: #BA2727;
+}
+
+.PythonColor {
+    font-weight: 800;
+    color: rgb(77, 77, 180);
+}
+
+.HtmlColor {
+    font-weight: 800;
+    color: #B86027;
+}
+
+.CssColor {
+    font-weight: 800;
+    color: #2796A9;
+}
+
+.JavascriptColor {
+    font-weight: 800;
+    color: #D2D223;
+}
+
+/* -------------------------------------------------------- */
+
+#Fundo {
+    background-color: var(--ColorBlack);
+    color: var(--ColorWhite);
+}
+
+#CorLetra1, #CorLetra2, #CorLetra3 {
+    transition: all 0.3s;
+    color: var(--ColorWhite);
+}
+
+#CorLetra1:hover, #CorLetra2:hover, #CorLetra3:hover {
+    transition: all 0.3s;
+    color: var(--ColorGrey);
+}
+
+.MenuPaginas {
+    display: flex;
+    justify-content: center;
+}
+
+.Paginas {
+    transition: all 0.2s;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.Paginas:hover {
+    transition: all 0.3s;
+    color: rgb(97, 97, 97);
+}
+
+/* #Clicked {
+    color: rgb(97, 97, 97);
+} */
+
+#Main {
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+
+#Mainn {
+    width: 60%;
+    /* background-color: rgba(0, 0, 255, 0.123); */
+}
+
+#Apresentacao {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ApEsq {
+    width: 60%;
+    display: block;
+}
+
+#ApTitulo {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#ApSubtitulo {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.ApDir {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    display: block;
+}
+
+#Perfil {
+    border-radius: 1rem;
+}
+
+/* -------------------------------------------------------- */
+
+#MudarCor {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    width: 50px;
+    cursor: pointer;
+}
